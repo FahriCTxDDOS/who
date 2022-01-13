@@ -353,10 +353,10 @@ def run():
             print(f"WhoMe Request send => {ip} With Port => {port}")
             s.close()
             
- for a in range(threds):
-    if choice == "y":
-        th = threading.Thread(target = run)
-        th.start()
-    else:
-        th = threading.Thread(target = attack)
-        th.start
+ for y in range(threads):
+    th = threading.Thread(target = run)
+    th.start()
+
+for x in range(threads):
+    th = threading.Thread(target = attack)
+    th.start()
