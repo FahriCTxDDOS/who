@@ -219,16 +219,16 @@ else :
     print("Password Salah")
     time.sleep(10000)
 os.system("clear")
-user =  input("UserName")
-usr = input("NamaKamu")
+usr = input("NamaKamu : ")
 if usr ==  "Raffx":
 	print("Selamat Datang Di WhoME Beta Raff Kamu Memiliki Role User Di Sini")
 elif usr == "FahriCTx":
 	print("Selamat Datang Du WhoME Beta FahriCT Kamu Memiliki Role Admin Di Sini")
 	print("Admin Procetc")
 	print("Sukses Masuk Ke Akun")
-else:
-	print("Maaf Nama Anda Tidak Terdaftar Cek Grub Wa WhoME Attacker Untuk Mendaftar")
+else :
+    print("Maaf Nama Anda Tidak Terdaftar Cek Grub Wa WhoME Attacker Untuk Mendaftar")
+    time.sleep(10000)
 os.system("clear")
 
 
