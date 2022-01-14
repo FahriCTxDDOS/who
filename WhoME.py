@@ -225,8 +225,7 @@ if usr ==  "Raff":
 	print("Selamat Datang Di WhoME Beta Raff Kamu Memiliki Role User Di Sini")
 elif usr == "FahriCT":
 	print("Selamat Datang Du WhoME Beta FahriCT Kamu Memiliki Role Admin Di Sini")
-	print("Admin Password Procetc")
-        print("Sedang Mengverifikasi ip")
+	print("Admin Procetc")
         time.sleep(20)
 	print("Sukses Masuk Ke Akun")
 else:
