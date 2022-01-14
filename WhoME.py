@@ -221,11 +221,14 @@ else :
 os.system("clear")
 usr = input("NamaKamu : ")
 if usr ==  "Raffx":
-	print("Selamat Datang Di WhoME Beta Raff Kamu Memiliki Role User Di Sini")
+    print("Selamat Datang Di WhoME Beta Raff Kamu Memiliki Role User Di Sini")
+    time.sleep(2)
 elif usr == "FahriCTx":
-	print("Selamat Datang Du WhoME Beta FahriCT Kamu Memiliki Role Admin Di Sini")
-	print("Admin Procetc")
-	print("Sukses Masuk Ke Akun")
+    print("Selamat Datang Du WhoME Beta FahriCT Kamu Memiliki Role Admin Di Sini")
+    print("Admin Procetc")
+    time.sleep(10)
+    print("Sukses Masuk Ke Akun")
+    time.sleep(3)
 else :
     print("Maaf Nama Anda Tidak Terdaftar Cek Grub Wa WhoME Attacker Untuk Mendaftar")
     time.sleep(10000)
