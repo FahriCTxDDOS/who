@@ -226,7 +226,8 @@ if usr ==  "Raff":
 elif usr == "FahriCT":
 	print("Selamat Datang Du WhoME Beta FahriCT Kamu Memiliki Role Admin Di Sini")
 	print("Admin Password Procetc")
-    id = input("Password : ")
+        print("Masukan Password : ")
+        time.sleep(10)
 	print("Sukses Masuk Ke Akun")
 else:
 	print("Maaf Nama Anda Tidak Terdaftar Cek Grub Wa WhoME Attacker Untuk Mendaftar")
